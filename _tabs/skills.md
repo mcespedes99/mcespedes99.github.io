@@ -1,5 +1,6 @@
 ---
 layout: page
+icon: fas fa-tools
 order: 1
 ---
 <html>
