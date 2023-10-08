@@ -3,4 +3,4 @@ layout: page
 icon: fas fa-stream
 order: 4
 ---
-- [iEEGQC]({% link _tabs/prerendered/report.html %})
+- [iEEGQC]({{ site.baseurl }}{% link _tabs/prerendered/report.html %})
