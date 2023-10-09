@@ -3,43 +3,44 @@ layout: page
 icon: fas fa-tools
 order: 1
 ---
+
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.1">
 <style>
-.ul {
-    display: table; 
-    margin: 0 auto;
-    text-align: left;
-}
-.box-container{
-  display:inline-block;
-  width:100%;
+  body {
+    background-color: #333333; /* Dark gray background */
   }
-.box{
-  display:block;
-  width:31%;
-  float:left;
-  background:#808080;
-  color:#333333;
-  margin-left:2%;
-  text-align:center;
-  border-radius: 25px;
-  padding-top: 10px;
-  margin-bottom: 5px;
-  }
-.box :first-child {
-    align-self: left;
-}
 
-@media screen and (max-width: 600px) {
-  .box {
-    width: 50%;
-    margin-bottom: 10px;
-    margin-left:25%;
-    float:center;
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px; /* Adjust the maximum width as needed */
   }
-}
+
+  .box {
+    flex: 1;
+    width: calc(33.33% - 20px); /* 33.33% for three columns with some margin */
+    background: #1E1E1E; /* Darker background color */
+    color: #FFA500; /* Orange text color */
+    border: 2px solid #333333; /* Dark gray border */
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .box i {
+    color: #FFA500; /* Orange color for icons */
+  }
+
+  @media screen and (max-width: 768px) {
+    .box {
+      width: calc(50% - 20px); /* 50% for two columns on smaller screens */
+    }
+  }
 </style>
 </head>
 <body>
@@ -47,7 +48,7 @@ order: 1
 <div class="box-container">
     <div class="box">
       <i class="fa-solid fa-code fa-4x"></i>
-      <h2 style='margin-top: 10px; margin-bottom: 10px'>Coding</h2>
+      <h2>Coding</h2>
       Python <br>
       Git/Github <br>
       C++ <br>
@@ -56,7 +57,7 @@ order: 1
     </div>
     <div class="box">
       <i class="fa-solid fa-file-medical-alt fa-4x"></i>
-      <h2 style='margin-top: 10px; margin-bottom: 10px'>Signal Processing</h2>
+      <h2>Signal Processing</h2>
       Spectral analysis <br>
       Time-frequency analysis <br>
       Synchronization analysis <br>
@@ -64,7 +65,7 @@ order: 1
     </div>
     <div class="box">
       <i class="fa-solid fa-brain fa-4x"></i>
-      <h2 style='margin-top: 10px; margin-bottom: 10px'>Machine Learning</h2>
+      <h2>Machine Learning</h2>
       Regression techniques <br>
       Classification techniques <br>
       Image processing <br>
@@ -74,24 +75,29 @@ order: 1
 <div class="box-container">
     <div class="box">
       <i class="fa-solid fa-microchip fa-4x"></i>
-      <h2 style='margin-top: 10px; margin-bottom: 10px'>Computer Engineering</h2>
+      <h2>Computer Engineering</h2>
       HW basic maintenance <br>
       Linux <br>
     </div>
     <div class="box">
       <i class="fa-solid fa-heartbeat fa-4x"></i>
-      <h2 style='margin-top: 10px; margin-bottom: 10px'>Electrophysiology</h2>
+      <h2>EP Studies</h2>
       ECG analysis <br>
       EEG analysis <br>
     </div>
     <div class="box">
       <i class="fa-solid fa-user-friends fa-4x"></i>
-      <h2 style='margin-top: 10px; margin-bottom: 10px'>Soft-skills</h2>
-      TBD
+      <h2>Soft-skills</h2>
+      Teamwork <br>
+      Leadership <br>
+      Continuous Learner <br>
+
     </div>
 </div>
+
 </body>
 </html>
+
 
 
 <!-- feature:
