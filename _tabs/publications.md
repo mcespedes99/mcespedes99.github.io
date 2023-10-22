@@ -14,10 +14,20 @@ order: 2
     <p class="publication-doi">DOI: <a href="https://doi.org/10.3389/fther.2022.1005117">10.3389/fther.2022.1005117</a></p>
     <p class="publication-description">This research explores Photothermal Therapy (PTT) as a promising cancer treatment that uses laser irradiation to damage tumors. PTT faces challenges like collateral damage to healthy tissue and excessive temperature increase in tumors. The study proposes a feedback control system, testing two algorithms (fuzzy logic and PI) via simulations. Both controllers successfully minimize collateral damage while enhancing tumor destruction, demonstrating potential for safer and more effective PTT.</p>
     <div class="publication-image-container">
-     <img src="/assets/img/papers/Journal.jpg" alt="Journal Paper" class="publication-image-1col">
+     <img src="/assets/img/papers/Journal.jpg" alt="Journal Paper" class="publication-image">
     </div>
   </div>
   <!-- Add more publications as needed -->
+  <div class="publication">
+    <h3 class="publication-title">Magnetic resonance imaging datasets with anatomical fiducials for quality control and registration</h3>
+    <p class="publication-authors">Taha, A., Gilmore, G., Abbass, M. et al.</p>
+    <p class="publication-info">Scientific Data, Volume 10, Issue 1, Date: 2023</p>
+    <p class="publication-doi">DOI: <a href="https://doi.org/10.1038/s41597-023-02330-9">10.1038/s41597-023-02330-9</a></p>
+    <p class="publication-description"> This research presents our contribution: the Anatomical Fiducial (AFID) placement protocol for assessing brain correspondence in MRI data. We release meticulously curated AFID placements for widely used datasets, empowering image registration quality control and clinical applications. Our dataset, which involved over 300 hours of human annotation, is highly accurate, with placements falling within 1-2 mm, consistent with prior studies. Moreover, the data is designed for effortless integration into neuroimaging analysis pipelines.</p>
+    <div class="publication-image-container">
+     <img src="/assets/img/papers/AFIDS.png" alt="AFIDS Paper" class="publication-image">
+    </div>
+  </div>
 </div>
 
 <h2>Conference Proceedings</h2>
