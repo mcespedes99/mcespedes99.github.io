@@ -80,10 +80,14 @@ order: 1
       Linux <br>
     </div>
     <div class="box">
-      <i class="fa-solid fa-heartbeat fa-4x"></i>
-      <h2>EP Studies</h2>
-      ECG analysis <br>
-      EEG analysis <br>
+      <i class="fa-solid fa-file-code fa-4x"></i>
+      <h2>ML Coding</h2>
+      scikit-learn <br>
+      Pytorch <br>
+      Pytorch lightning <br>
+      Keras <br>
+      MONAI <br>
+      Containerization <br>
     </div>
     <div class="box">
       <i class="fa-solid fa-user-friends fa-4x"></i>
